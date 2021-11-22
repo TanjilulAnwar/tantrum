@@ -1,38 +1,164 @@
-.App {
+.container {
+  font-family: "Love Ya Like A Sister", cursive;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.head-text {
   text-align: center;
+  font-size: 8vw;
+  color: rgb(204, 19, 158);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
+  margin-top: 30px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+}
+.main-item {
+  flex: 4;
+  margin: 0px 30px 0px 30px;
+  padding: 20px;
+  border-radius: 10px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  height: 20vw;
+  box-shadow: 10px 10px 17px -3px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 10px 10px 17px -3px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 10px 10px 17px -3px rgba(0, 0, 0, 0.23);
 }
 
-.App-link {
-  color: #61dafb;
+.child-item {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+
+  width: 100%;
+  height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table-green {
+  margin: 5px;
+  width: 100%;
+}
+
+.table-green > tr,
+td {
+  padding: 10px;
+}
+
+.gingham-green {
+  background-color: #ecffeb;
+  background-image: repeating-linear-gradient(
+      45deg,
+      rgba(53, 198, 40, 0.3) 0px 8px,
+      transparent 8px 16px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      rgba(53, 198, 40, 0.3) 0px 8px,
+      transparent 8px 16px
+    );
+}
+
+.round-item {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+}
+
+.gingham-purple {
+  background-color: #9e9eff;
+  background-image: repeating-linear-gradient(
+      45deg,
+      rgba(40, 64, 198, 0.3) 0px 8px,
+      transparent 8px 16px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      rgba(40, 64, 198, 0.3) 0px 8px,
+      transparent 8px 16px
+    );
+}
+
+.gingham-blue {
+  background-color: #ebebff;
+  background-image: repeating-linear-gradient(
+      45deg,
+      rgba(40, 64, 198, 0.3) 0px 8px,
+      transparent 8px 16px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      rgba(40, 64, 198, 0.3) 0px 8px,
+      transparent 8px 16px
+    );
+}
+.gingham-orange {
+  background-color: #fff5eb;
+  background-image: repeating-linear-gradient(
+      45deg,
+      rgba(198, 90, 40, 0.3) 0px 8px,
+      transparent 8px 16px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      rgba(198, 90, 40, 0.3) 0px 8px,
+      transparent 8px 16px
+    );
+}
+
+.gingham-red {
+  background-image: repeating-linear-gradient(
+      45deg,
+      rgba(198, 40, 145, 0.3) 0px 8px,
+      transparent 8px 16px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      rgba(198, 40, 145, 0.3) 0px 8px,
+      transparent 8px 16px
+    );
+}
+
+.sample {
+  font-size: 7em;
+  text-align: center;
+  line-height: 0.95em;
+  font-weight: bold;
+  color: transparent;
+  background-color: #ffebee;
+  background-image: repeating-linear-gradient(
+      0deg,
+      rgba(198, 40, 40, 0.5) 0px 8px,
+      transparent 8px 16px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(198, 40, 40, 0.5) 0px 8px,
+      transparent 8px 16px
+    );
+  -webkit-background-clip: text;
+}
+
+.innerText {
+  height: calc(50vh - 60px);
+  background-color: rgb(255, 238, 0);
+  font-size: 7vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.text-blue {
+  color: rgb(40, 64, 198);
+}
+.text-red {
+  color: rgb(198, 40, 145);
+}
+.text-orange {
+  color: rgb(240, 84, 12);
 }
